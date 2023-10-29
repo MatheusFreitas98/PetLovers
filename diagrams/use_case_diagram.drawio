@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-29T00:13:04.915Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="dsVIrdbExhAbdV53nTA5" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-29T00:17:27.893Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="pSitiE4dJZCcShvYWuQ5" version="22.0.8" type="github">
   <diagram name="Page-1" id="cmvLj-Jmu_eHXBWfitiG">
     <mxGraphModel dx="2206" dy="1203" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
         <mxCell id="b02hixyi1CkfagJmaC7L-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="b02hixyi1CkfagJmaC7L-11" target="b02hixyi1CkfagJmaC7L-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b02hixyi1CkfagJmaC7L-11" value="ALTERAR DADOS DE CADASTRO" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b02hixyi1CkfagJmaC7L-11" value="GERENCIAR CADASTROS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="385" y="160" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="b02hixyi1CkfagJmaC7L-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="b02hixyi1CkfagJmaC7L-12" target="b02hixyi1CkfagJmaC7L-15">
