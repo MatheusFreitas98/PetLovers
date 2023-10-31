@@ -1,4 +1,4 @@
-<h1>PetLovers - Petshop Managment System</h1>
+<h1>PetLovers - Sistema de gerenciamento de Petshops</h1>
 
 PetLovers
 
@@ -6,6 +6,6 @@ PetLovers
 <img src="https://img.shields.io/static/v1?label=STATUS&message=ANDAMENTO&color=GREEN&style=for-the-badge" title="Badge ilustrando o status do projeto"/>
 </p>
 
-<h2>📝 Descprition: </h2>
+<h2>📝 Descrição: </h2>
 
-🔹 College project regarding a petshop management application using Java and other technologies.
+🔹 Petlovers é um sistema de gerenciamento petshops - estabelecimentos comerciais especializados em vender e atender animais de estimação. O projeto está sendo desenvolvido em Java, Springboot, e contará com front-end em React.
