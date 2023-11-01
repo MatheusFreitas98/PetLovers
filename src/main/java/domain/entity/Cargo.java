@@ -4,11 +4,13 @@ import javax.persistence.*;
 
 @Entity
 @Table
-public class Funcionario extends Entidade {
+public class Cargo {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column
-    private String matricula;
+    private int id;
     @Column
-    private Cargo cargo;
+    private String descricao;
+    @Column
+    private double salario;
 }
