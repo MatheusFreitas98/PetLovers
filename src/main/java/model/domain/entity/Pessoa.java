@@ -1,35 +1,29 @@
-package domain.entity;
+package model.domain.entity;
 
 import javax.persistence.*;
 
-@Entity
-@Table
-public class Entidade {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column
-    private int id;
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@DiscriminatorColumn(name = "pessoa", discriminatorType = DiscriminatorType.STRING)
+public abstract class Pessoa {
     @Column
     private String documento;
     @Column
     private String nome;
     @Column
+    private String telefone;
+    @Column
     private String email;
     @Column
     private String senha;
 
-    public Entidade() {
+    public Pessoa() {
     }
 
-    public Entidade(String documento, String nome, String email, String senha) {
+    public Pessoa(String documento, String nome, String email, String senha) {
         this.documento = documento;
         this.nome = nome;
         this.email = email;
         this.senha = senha;
-    }
-
-    public int getId() {
-        return id;
     }
 
     public String getDocumento() {

@@ -1,14 +1,17 @@
-package domain.entity;
+package model.domain.entity;
 
 import javax.persistence.*;
 
 @Entity
 @Table
-public class Funcionario extends Entidade {
+@DiscriminatorValue("pessoa")
+public class Funcionario extends Pessoa {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column
+    private int id;
+    @Column
     private String matricula;
     @Column
-    private Cargo cargo;
+    private String cargo;
 }
